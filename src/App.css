@@ -1,12 +1,37 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: clamp(1rem, -0.7647rem + 5.8824vw, 3rem);
+}
 .App {
   text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  max-width: 1024px;
+  margin: auto;
+  padding: 1rem;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+h1.main-title {
+  text-align: center;
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-size: 3rem;
+  font-style: normal;
+  color: #1F1D1F;
+  margin: 2rem 0;
+}
+h2 {
+  font-family: "Satisfy", cursive;
+  font-size: 2.5rem;
+  margin: 2rem 0;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,25 +39,84 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* background-color: #282c34; */
+
+  height: auto;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  /* font-size: calc(10px + 2vmin); */
+  padding: 1rem;
 }
 
 .App-link {
   color: #61dafb;
 }
+.menu {
+  display: flex;
+}
+.primary-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+.primary-nav a {
+  text-decoration: none;
+  color: #939295;
+}
+/* .primary-nav.closed {
+  display: none;
+} */
+button.btn {
+  border: none;
+  background: transparent;
+  /* display: none; */
+  cursor: pointer;
+}
+.btn-close {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+/* button.btn.open {
+  display: block;
+} */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+button {
+  background: transparent;
+  font-size: 1.2rem;
+  color: #939295;
+}
+button.btn-primary {
+  border: 1px solid #939295;
+  color: #939295;
+}
+.lead-text {
+  color: #939295;
+}
+@media screen and (max-width: 1024px) {
+  .primary-nav {
+    position: absolute;
+    top: 75px;
+    right: 0;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    background-color: #e3e3e3;
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  button.btn {
+    display: none;
+  }
+
+  .btn-primary {
+    width: 100%;
+    max-width: 480px;
+    padding: .4rem;
+    margin: 1rem 0;
   }
 }
+
+
