@@ -13,15 +13,15 @@ function Navbar() {
     <header className="App-header">
        <Logo/>
         <nav className="menu">
-            <ul className={openMenu ? 'primary-nav closed' : 'primary-nav'}>
+            <ul className={openMenu ? 'primary-nav' : 'primary-nav closed'}>
                 <li><a href="/#">Home</a></li>
                 <li><a href="/#">Our Story</a></li>
                 <li><a href="/#">Venue</a></li>
                 <li><a href="/#">RSVP</a></li>
                 <li><a href="/#">Gallery</a></li>
-                <button className={openMenu ? 'btn btn-close' : 'btn open btn-close'} onClick={handleOpenMenu}><i className="fa-solid fa-xmark"></i></button>
+                <button className="btn-nav btn-close" onClick={handleOpenMenu}><i className="fa-solid fa-xmark"></i></button>
             </ul>
-            <button className={openMenu ? 'btn open btn-open' : 'btn btn-open'} onClick={handleOpenMenu}><i className="fa-solid fa-bars"></i></button>
+            <button className="btn-nav" onClick={handleOpenMenu}><i className="fa-solid fa-bars"></i></button>
         </nav>
         
     </header>
