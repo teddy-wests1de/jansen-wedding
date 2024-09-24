@@ -1,7 +1,10 @@
+import images from '../images/hannah-busing-URVe89DA5Cw-unsplash.jpg';
+// import bgImg from '../images/pexels-itsmeseher-42035630-11951521.jpg';
+
 function Venues() {
     return (
         <div className="venu-timing grid">
-            <div>
+            <div className='hero'>
                 <h2>
                     Venue & Timing
                 </h2>
@@ -12,7 +15,7 @@ function Venues() {
                 <button className="btn-primary">Contact</button>
             </div>
             <div>
-                <img src="./images/jakob-owens-SiniLJkXhMc-unsplash.jpg" />
+                <img src={images}/>
             </div>
             <div>
                 <h2>Gallery</h2>

@@ -3,10 +3,6 @@ function Footer() {
     return (
         <div className="footer grid">
             <div>
-                <h6>LOGO</h6>
-                <p>Copyright &copy; 2024 - Coldstream</p>
-            </div>
-            <div>
                 <h3>Quick Links</h3>
                 <ul>
                     <li>Home</li>
@@ -25,13 +21,8 @@ function Footer() {
                 </ul>
             </div>
             <div>
-            <h3>Legal</h3>
-                <ul>
-                    <li>Terms</li>
-                    <li>Privacy</li>
-                    <li>Sitemap</li>
-                    <li>Copyright</li>
-                </ul>
+                <h6>LOGO</h6>
+                <p>Copyright &copy; 2024 - Coldstream</p>
             </div>
         </div>
     )

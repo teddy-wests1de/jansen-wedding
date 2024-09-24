@@ -17,8 +17,8 @@ function Navbar() {
                 <li><a href="/#">Home</a></li>
                 <li><a href="/#">Our Story</a></li>
                 <li><a href="/#">Venue</a></li>
-                <li><a href="/#">RSVP</a></li>
                 <li><a href="/#">Gallery</a></li>
+                <li><a href="/#" className="rsvp">RSVP</a></li>
                 <button className="btn-nav btn-close" onClick={handleOpenMenu}><i className="fa-solid fa-xmark"></i></button>
             </ul>
             <button className="btn-nav" onClick={handleOpenMenu}><i className="fa-solid fa-bars"></i></button>
