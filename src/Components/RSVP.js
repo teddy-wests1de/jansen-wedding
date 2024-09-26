@@ -2,11 +2,13 @@ function RSVP() {
 
     return(
         <div className="grid">
-        <p>We'd love for you to join us in celebrating our love.</p>
         <h2>RSVP</h2>
+        <p>We'd love for you to join us in celebrating our love.</p>
         <form className="rsvp-form">
-            <label>Name</label>
-            <input type="text" placeholder="Please input Geust Name..."></input>
+            <div class="form-field">
+                <label>Name</label>
+                <input type="text" placeholder="Please input Geust Name..."></input>
+            </div>
 
         </form>
         </div>

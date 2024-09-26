@@ -1,4 +1,5 @@
 import images from '../images/hannah-busing-URVe89DA5Cw-unsplash.jpg';
+import weddingCollage from '../images/wedding_photo_collage.jpeg';
 // import bgImg from '../images/pexels-itsmeseher-42035630-11951521.jpg';
 
 function Venues() {
@@ -17,8 +18,11 @@ function Venues() {
             <div>
                 <img src={images}/>
             </div>
-            <div>
+            <div className='gallery'>
                 <h2>Gallery</h2>
+                <p>Ou photo gallery offers a mix of formal and spontaneous shots, capturing the essence our celebration of love.</p>
+                {/* <img src={weddingCollage} alt='Collage of Wedding Photos.'/> */}
+                <button className='btn-primary'>View Gallery</button>
             </div>
 
         </div>

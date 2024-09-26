@@ -43,21 +43,23 @@ h1.main-title {
   background-repeat: no-repeat;
   background-position: right;
   text-align: center;
-  font-family: "Playwrite DE Grund", cursive;
+font-family: "Glass Antiqua", cursive;
   font-weight: 800;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-style: normal;
   color: #fff;
-  margin: 2rem 0;
+  /* margin: 2rem 0; */
   background-color: #971818;
+  text-transform: uppercase;
 }
 h2 {
-  font-family: "Playwrite DE Grund", cursive;
-  font-size: 1.5rem;
-  margin: 2rem 0;
+font-family: "Glass Antiqua", cursive;
+  font-size: 2rem;
+  margin: 1.5rem 0;
 }
 p {
   color: var(--text-color-primary);
+  margin-bottom: 1rem;
 }
 .App-logo {
     display: flex;
@@ -147,16 +149,31 @@ button.btn-primary {
 }
 .lead-text {
   color: #939295;
+  margin: 1rem 0;
 }
 button.btn-nav{
   display: none;
+}
+.venu-timing.grid {
+  align-items: center;
+  gap: 1rem;
 }
 .venu-timing {
   padding: .5rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 .rsvp-form {
   border: 1px solid #982c2c;
   /* width: 100%; */
@@ -164,8 +181,12 @@ button.btn-nav{
 .rsvp-form > * {
   border-radius: 4px;
 }
+.rsvp-form .form-field {
+  display: flex;
+  flex-direction: column;
+}
 .rsvp-form input {
-  width: 100%;
+  /* width: 100%; */
   max-width: 400px;
   padding: .4rem .5rem;
   border: 1px solid #982c2c
@@ -219,7 +240,8 @@ button.btn-nav{
     margin: 1rem 0;
   }
   h1.main-title {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    background-image: url(./images/pexels-itsmeseher-42035630-11951521\ -\ mobile.jpg);
   }
   .venu-timing {
     display: grid;

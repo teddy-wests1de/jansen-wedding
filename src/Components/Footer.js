@@ -17,7 +17,7 @@ function Footer() {
                     <li>Email</li>
                     <li>Facebook</li>
                     <li>Instagram</li>
-                    <li>Fone</li>
+                    <li>Phone</li>
                 </ul>
             </div>
             <div>
