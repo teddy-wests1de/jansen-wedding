@@ -25,8 +25,10 @@ function Navbar() {
         </nav>
         
     </header>
-    <h1 className="main-title">Our Happily Ever After</h1>
-    <p className="lead-text">Our lovestory began on a sunny day in the park. Where we first laid eyes on each other.</p>
+    <div>
+        <h1 className="main-title"></h1>
+        <p className="lead-text">Our lovestory began on a sunny day in the park. Where we first laid eyes on each other.</p>
+    </div>
     </>
     )
 }

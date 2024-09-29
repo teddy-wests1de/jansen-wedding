@@ -1,4 +1,4 @@
-import images from '../images/hannah-busing-URVe89DA5Cw-unsplash.jpg';
+import images from '../images/hannah-busing-URVe89DA5Cw-unsplash-bw.jpg';
 import weddingCollage from '../images/wedding_photo_collage.jpeg';
 // import bgImg from '../images/pexels-itsmeseher-42035630-11951521.jpg';
 
